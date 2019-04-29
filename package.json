@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/T0nixx/midterm#readme",
   "dependencies": {
-    "puppeteer": "^1.15.0"
+    "@types/puppeteer": "^1.12.3",
+    "puppeteer": "^1.15.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
   }
 }
